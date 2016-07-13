@@ -2,7 +2,7 @@ import IceQrcode from '@ali/ice-qrcode';
 import ReactDOM from 'react-dom';
 module.exports = {
   "preview": function () {
-    class App extends Component {};return <div>
+    class App extends Component {};function abc() {};return <div>
     <div style={{ textAlign: "right" }}>
       <IceQrcode value="http://www.taobao.com" text="手机淘宝扫码查看" />
     </div>
